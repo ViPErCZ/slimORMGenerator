@@ -1,0 +1,23 @@
+{
+	"name": "slimorm/slimORMGenerator",
+	"description": "Auto generator for slimORM database layer.",
+	"homepage": "http://vipersoftware.net",
+	"type": "project",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Martin Chudoba",
+			"email": "info@vipersoftware.net",
+			"homepage": "http://vipersoftware.net"
+		}
+	],
+	"require": {
+		"php": ">= 5.4.0",
+		"slimorm/slimorm": "~2.0",
+		"kdyby/console": "~2.3.1"
+	},
+	"bin": ["src/generator"],
+	"autoload": {
+		"classmap": ["src/"]
+	}
+}
