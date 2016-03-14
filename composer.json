@@ -1,5 +1,5 @@
 {
-	"name": "slimorm/slimORMGenerator",
+	"name": "slimorm/generator",
 	"description": "Auto generator for slimORM database layer.",
 	"homepage": "http://vipersoftware.net",
 	"type": "project",
